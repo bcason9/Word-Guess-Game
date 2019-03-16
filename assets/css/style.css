@@ -1,0 +1,21 @@
+h1 {
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+body {
+    background-image: radial-gradient(rgb(252, 38, 252), lightgreen);
+    color: purple;
+}
+
+.container {
+    background-image: radial-gradient(lightblue, lightgreen);
+}
+
+#empty-div {
+    border: 1px solid purple;
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
