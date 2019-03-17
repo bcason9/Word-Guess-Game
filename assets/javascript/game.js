@@ -2,13 +2,19 @@ var words = [
     "GIRAFFE",
     "LION",
     "WILDEBEAST",
-    "RHINOCEROUS",
+    "RHINOCEROS",
     "HIPPO",
     "GAZELLE",
     "ANTELOPE",
     "HYENA",
     "ELEPHANT",
     "CROCODILE",
+    "TORTOISE",
+    "CHEETAH",
+    "ANTEATER",
+    "JAGUAR",
+    "OSTRICH",
+    "ZEBRA",
 ];
 
 //loop for choosing random word
@@ -23,6 +29,7 @@ var attemptsLeft = 15;
 var winTotal = 0;
 var lossTotal = 0;
 var output = "";
+
 
 var resetGameInstance = function () {
     game = Math.floor(Math.random() * words.length);
