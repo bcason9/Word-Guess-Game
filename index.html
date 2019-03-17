@@ -7,25 +7,32 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     
-    <title>Guess the Word!</title>
+    <title>Guess the Animal!</title>
 </head>
 <body>
     <div class="container shadow-lg">
     <br>
-    <h1 class="text-center">Guess the Word!</h1>
-    <p class="text-center">Guess a letter for each word by pressing the corresponding key. You will have 
+    <h1 class="text-center">Guess the Animal!</h1>
+    <p class="text-center">Guess the name of the animal! Choose a letter for each word by pressing the corresponding key. You will have 
         15 guesses for each word. Good luck!
     </p>
     <h3 class="text-center">Press any key to begin!</h3>
             
             
-    <h4 class="text-center" id="wintotal">Number of Wins: 0</h4>
-    <h4 class="text-center" id="losstotal">Number of Losses: 0</h4>
-    <h4 class="text-center" id="guesses">You have 15 guesses left</h4>
+    <h5 class="text-center" id="wintotal">Number of Wins: 0</h5>
+    <h5 class="text-center" id="losstotal">Number of Losses: 0</h5>
+    <h5 class="text-center" id="guesses">You have 15 guesses left</h5>
+    <h5 class="text-center">Used Letters:</h5>
+    <p class="text-center" id="usedletters"></p>
     <br>
     </div>
     <br>
     <div class="text-center" id="empty-div"></div>
+    <br>
+    <br>
+    <footer class="footer">
+        <img src="assets/images/grass.jpg" alt="..." height="175px" width=100%>
+    </footer>
     <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>

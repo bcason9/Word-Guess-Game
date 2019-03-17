@@ -5,12 +5,12 @@ h1 {
 }
 
 body {
-    background-image: radial-gradient(rgb(252, 38, 252), lightgreen);
-    color: purple;
+    background-image: radial-gradient(rgb(250, 94, 89), rgb(233, 209, 104));
+    color: black
 }
 
 .container {
-    background-image: radial-gradient(lightblue, lightgreen);
+    background-image: radial-gradient(rgb(61, 141, 245), lightblue);
 }
 
 #empty-div {
@@ -18,4 +18,12 @@ body {
     padding: 20px;
     margin-left: 200px;
     margin-right: 200px;
+}
+
+@media screen and (max-width: 640px) {
+    #empty-div {
+        width: 200px;
+        position: relative;
+        right: 115px;
+    }
 }
