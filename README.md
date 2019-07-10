@@ -1,4 +1,6 @@
 # Word-Guess-Game
 
-Guess the name of each animal by typing in letters one by one. You have 15 chances to get each word right. Be sure to avoid reusing the same
-letters--running out of attempts will mean that you lose!
+This game uses vanilla javascript to create a "hangman" style game. The user must guess each given word in the alloted number of attempts. This game can be played at https://bcason9.github.io/Word-Guess-Game/
+
+## Future Development
+ This game is currently not playable on mobile devices, so in the near future I intend to implement mobile functionality so that it is not limited to computer browser functionality only.
